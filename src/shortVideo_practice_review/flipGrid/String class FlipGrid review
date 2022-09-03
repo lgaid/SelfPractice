@@ -1,0 +1,25 @@
+Flipgrid Q4: What String is in Java? How do we create it? Why is it immutable?
+String is a class that comes from:
+          - JRE system library
+          - implicitly imported by java.lang.String package
+           -when creating string objects are instances of the String Class
+
+In Java String
+    - constitutes sequences of characters
+
+String is the Most special class in Java
+    Why?
+    - ONLY String Class offers 2 options to create objects from ...
+    - all other classes must use new keyword at all times
+How do we create it? there are 2 way:
+
+            1.    using String Literals ("") which becomes String literal object
+                        -located in special memory called the String Pool(inside the Heap)
+            2.    using new keyword
+                        - creates different new object each time it's used
+                        - located in the Heap memory
+String is also immutable:
+                - Major reason security
+                - for network connections, credentials, database connections,caching, etc
+Therefore, String is one of the most important classes in Java
+

@@ -1,0 +1,38 @@
+Hello JD US1 !
+Practice
+
+create new chapter - chapter 2
+create 2 new page, type something
+commit
+
+edit chapter 2 - page 1
+create one more page (page 3 ) under chapter 2
+commit
+
+then push your commits.
+
+check your repo to see updated changes.
+---------------------
+Practice 2:
+
+Create page 4 file under Chapter 1
+type something inside, commit on github
+fetch and  see the changes between remote and local
+get the changes to local and see page 4 under chapter 1
+-------------------
+
+How to create project
+    https://www.screencast.com/t/GBONmhvA
+
+How to commit files
+    https://www.screencast.com/t/eMt77BcP7LOy
+
+Sharing your project for the first time
+    https://www.screencast.com/t/N7bty7W5
+
+how to get updates from remote to local
+    https://www.screencast.com/t/7vYxQ4yq
+
+How to use .gitignore file to get rid of unversioned files
+    https://www.screencast.com/t/YnDW5p7BNpy
+

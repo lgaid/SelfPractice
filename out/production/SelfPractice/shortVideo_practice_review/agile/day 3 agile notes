@@ -1,0 +1,268 @@
+08/05/2022 class note
+
+Agenda:
+
+    - review Scrum
+
+    - Scrum meetings
+
+=======================
+Software development methodology - set of rule regarding : team structure, communication, manage docs, meetings
+
+Agile - the commonly used method
+
+        types/frameworks:
+
+             - Agile - Scrum - more then 65% of IT companies use this
+               Agile - Kanaban
+               Agile - XP
+               Agile - lean
+
+========================
+What is Scrum?
+        Scrum is one of the Agile types/framework
+
+    - Sprint: fixed time box
+               1 week
+               2 weeks --> the most commonly used
+               3 weeks
+               4 weeks
+
+    - Scrum team + 3 roles : PO
+                             SM
+                             Dev team - Dev + QA
+
+    - Scrum artifact: Product Backlog
+                      Sprint Backlog
+                      Product Increment
+
+    - Scrum meetings: Grooming
+                      Sprint Planning
+                      Daily stand up
+                      Demo
+                      Retro
+=====================================
+Key words
+User Story: the short requirement
+            PO writes US
+
+            format:
+            As a <user type> I want to <function> so that <business value>
+
+Acceptance Criteria: more detail info about a story
+                     PO writes ACs
+
+           As a student, I want to view Calendar page.
+
+            AC1: student should see a calendar module under the Topics module on the homepge.
+            AC2: there should be calendar icon before the module name
+            AC3: once a user ciclk the module name, they should be on the Calendar page
+                  URL: https://my.cydeo.com/account/calendar
+            AC4: there should be a seperate DB table for this module
+
+==================================
+Product Backlog : has list of user tories/tasks to work soon
+
+========================
+Environments:
+
+Dev env : dev.google.com
+QA env : qa.google.com
+stg env : stg.google.com
+production env: google.com
+
+
+=========================
+Product Increment : compelted / done user stories from a sprint
+
+            ex: sprin5: planned to complete 10 user stories
+                        actually complted 7 user stories -> these are called product increment
+
+                        3 incompeleted user stories will be done next sprint
+---------------------------
+Fibonacci squence number:
+
+      1 2 3 5 8 13 21
+
+   1 point ==  1 day effort
+
+   1 point = super easy user story
+   2 points == takes half day effort
+
+
+   EX: As a user, i want to login.
+
+    Dev1: 3 points == 3 days to complete
+    Dev2: 8 points == 8 days to complete
+    Dev3: 3 points == 3 days to complete
+    Dev4: 5 points == 5 days to complete
+
+         PO asks the reseason from the dev who gave the hightes point & lowest point
+          after negotiate, they will decide one point to the story => 3 points
+
+Why only estimate from 1 to 21?
+ - 1 sprint max can be 20 days / 4 weeks. there are only 18 days are avaliable for working on user stories. so 21 is the max we assign a story.
+ - alos 1 user story should be small enough to be completed within a sprint!
+
+ 1 sprint == 1 week  = 3 days to work on user stories (1st and last days are full of meeting)
+ 1 sprint == 2 weeks = 8 days to work on user stories (1st and last days are full of meeting)
+ 1 sprint == 3 weeks = 13 days to work on user stories (1st and last days are full of meeting)
+ 1 sprint == 4 weeks = 18 days to work on user stories (1st and last days are full of meeting)
+
+==========================
+
+
+ Daiana : 3 points
+ Yusuf  : 1 point
+ Yasin  : 8 points
+ Sumeyye: 3 points
+
+ PO: ask from Yusuf and Yasin to explain their reseaons?
+
+      - after discusstion, devs will estimate for the 2nd time
+
+        Daiana : 3 points
+ 		Yusuf  : 3 point
+ 		Yasin  : 5 points
+ 		Sumeyye: 3 points
+
+   PO : 3 points
+
+     As a user, I want to create a module.    5 points
+        subtaks: UI
+                 DB
+                 API
+
+     As a user, I want to edit a module.      1 point
+     As a user, I want to delete a module.    2 points
+
+      As a user, I want to delete a module_ui.
+      As a user, I want to delete a module_db.
+      As a user, I want to delete a module_api.
+
+================
+
+Grooming: before the meeting: PO prepare user stories
+          during the meeting:
+
+           1. PO expalins the user stories
+           2. Dev ask question  -PO answer
+           3. Estimation based on the Fibonacci system 1 2 3 5 8 13 21
+
+           2 - 4 hours of meeting :  1 - 4 weeks cycle sprint
+
+Sprint planning meeting:
+
+
+
+   Devs:
+   	Alena : 10 days - 2 days meeting = 8 days for the user stories
+   	Umran : 10 days - 2 days meeting = 8 days for the user stories
+   	Ahmed : 10 days - 2 days meeting = 8 days for the user stories
+   QA:
+    Muhtar: 10 days - 2 days meeting = 8 days for the user stories
+
+         Team capacity:  total work avaliability == 8 + 8 + 8 + 8 = 32
+
+
+  SM asks a question: any one has any day off?
+
+      - Each developer and QA answer teh question
+
+    Sprint 64:
+      Alena - no
+      Umran - no
+      Ahmed - 1 day off
+      Muhtar - no
+
+      team capacity = 31
+===========================
+
+Definition of ready : DOR
+
+   - condition to see if a user story ready to be taken from the PB to the SB
+
+   EX DOR:
+
+     1. PO explained the story?
+     2. Does that story has at least 1 AC?
+     3. Does the design provided?
+     4. Each dev & QA understood the story?
+     5. Is it estimated?
+     6. is this story small? small enought to complete in one sprint
+
+
+
+=====================================
+
+ Epic: big user story
+       any story takes more then 1 sprint to complete
+       Epic needs to break down to small several user stories
+       PO do this
+
+
+       ex: 2 weeks sprint: 8 days to work on user story
+
+            user story: 1 2 3 5 (8)
+            Epic: 13 21
+
+           3 weeks = 13 days to work stories
+             user story: 1 2 3 5 8 (13)
+             Epic : 21
+
+
+           1 week : 3 days to work on stories
+              user story: 1 2 3
+              Epic: 5 8 13 21
+
+
+
+  As a user, I want to work on the courses. --> 21 days to complete == 21 points
+
+      As a user, I want to delete a courses_ui.   5 points
+      As a user, I want to delete a courses_db.   3 points
+      As a user, I want to delete a courses_api.  1 points
+
+      As a user, I want to edit a courses_UI.      2 points
+      As a user, I want to edit a courses_DB.      1 points
+      As a user, I want to edit a courses_API.     1 points
+
+      As a user, I want to create a courses_UI.     3 points
+      As a user, I want to create a courses_DB.     2 points
+      As a user, I want to create a courses_API.    5 points
+
+
+-----------------
+
+As a user . i want to login -> 13 points during the grooming meeting -> Epic
+
+PO will break it down to small several user stories after the meeting, make them ready for the next sprint's grooming.
+
+   As a user . i want to see the login title - Cydeo/login
+   As a user . i want to go to login page - URL
+   As a user . i want to login with email & password
+
+===============================
+
+Sprint planning meeting:
+
+   atendee: Scrum team
+
+      1. SM creates a Sprint backlog on Jira
+      2. SM help the team to calculate the team capacity
+            team capacity : total work avalibility of dev & qa in a sprint
+            ex: 4dev & 3qa , 2 weeks sprint -> 7 * 8 = 56
+
+      3. PO choose Stories from the PB to teh SB
+          - based on the team capacity
+          - DOR condition
+      4. PO set a sprint goal
+
+          - info about the planned tasks
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+Day 2
+
+Creating your git ignore
+
+    Option 1: right click on project -> new -> file -> .gitignore
+    type file or folder you want to ignore or folder names you want to ignore
+
+    Option 2: manually
+
+    Git ->

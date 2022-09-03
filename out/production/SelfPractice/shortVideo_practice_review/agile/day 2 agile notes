@@ -1,0 +1,111 @@
+08/04/2022 class note
+
+Agenda:
+
+      - Review SDLC
+
+      New topics:
+      - Environments
+      - Agile_Scrum
+
+========================
+
+Requirement -> client's request, functions of the software that needs to be developed
+
+
+
+amazon app enviroments:
+
+1. dev.amazon.com
+2. qa.amazon.com = tes.amazon.com
+3. stg.amazon.com
+4. amazon.com
+
+==============================
+
+software method - waterfall:
+  rule #1: follow SDLC step by step, not going back to the previous step
+
+
+
+Scrum team : 1 PO
+             1 SM
+             1 dev team = developers + QAs
+             1 design
+
+
+             1 PO
+             1 SM
+             1 dev team = developers + QAs
+             1 design
+             1 performance tester
+
+==========================
+
+
+Release cycle:
+
+1. fixed release - release the app's new version in a regular cycle
+
+      ex: release every 3/4/5/6 month
+
+
+     01/2022 ---- 03/20/2022 : 3 months: functions: login / logout / file upload
+
+
+2. releasse whenever one function is completed
+
+      the client: login / logout / file upload
+
+        01/2022 --- 05/2022 : release after 5 months
+
+
+      the client: calendar, profile
+
+         06/2022 --- 08/2022: release after 2 months
+
+
+
+
+
+4 dev & 2 qa --> 1 senior dev is thech/team lead in the team
+
+
+========================
+As a user, I want to send text message _UI.
+
+As a user, I want to send text message _DB.
+
+As a user, I want to send text message _API.
+
+-----------------------
+As a user, I want to send text message.
+
+    sub-task: UI part
+              DB part
+              API part
+
+==============================
+
+As a user, I want to login.
+
+   AC1: login username should be email
+   AC2: password should be 8 chars - 1 lower, 1 uppper case, 1 special char, 1 number
+   AC3: "Sign In" button
+
+
+=======================
+
+Sprint cycle can be selected by the Scrum team based on thier team zise & project:
+
+     options:
+     1 sprint = 1 week
+     1 sprint = 2 weeks--> the most common cycle
+     1 sprint = 3 weeks
+     1 sprint = 4 weeks
+
+
+
+
+
+

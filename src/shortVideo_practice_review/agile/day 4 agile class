@@ -1,0 +1,177 @@
+8/07/2022 class note
+
+
+ Agile - Scrum : software development methodology
+                set of rule about team size, meetings, communication, manage doc & people....
+
+ 1. Sprint ---> fixed time box
+
+ 2. Scrum team's 3 roles:
+                         PO : Voice of client
+
+                              represents client
+                              write req == User stories & AC
+
+                              Grooming - explains the US to the dev team\
+                                         Manage and responsible for the product backlog
+
+                              Planning - set sprint goal, choose stories base DOR
+
+                              demo - accept / reject user stories
+                                     release date & content
+
+                         SM :   Facilitator/Ensures positive team relationships
+
+                                Removes impediments/Problems/Blockers
+
+                                Shields team from distractions
+
+                                SM hosts daily stand up meetings
+
+                                SM hosts Retro meetings
+
+
+                         Dev team - Developers & QAs
+
+                                    work on tasks
+
+                                    joins all scrum meetings
+
+                                    responsible for spring backlogs
+
+                                    contribute the Product increment(done work)
+
+
+
+
+ PM : Project Manager
+     business team member
+
+     Analyze & make decision on the business side
+
+     One on one conversation with each team member
+
+     make evaluation on your performance
+
+
+ 3. Scrum artifacts : Product backlog
+
+                     Sprint backlog
+
+                     Product increment (Completed task in a sprint)
+
+ KEYWORDS:
+
+ User story : short & small req from the client
+             As a <user type> I want to <function> so that <business value>
+
+
+ 4. Scrum meetings :
+    1.Grooming
+        before the meeting: the PO prepare the US & AC and prioritize them, list them in the PB
+
+        during the meeting: the PO prepare the US & AC
+
+                            the dev team ask questions - po answers
+
+                            Point estimation based on the Fibonacci system 1 2 3 5 8 13 21
+
+
+    2. Sprint Planning:
+
+        During the meeting: SM creates a Sprint Backlog for sprint
+
+                            SM Help the Dev team calculate the team capacity for the current sprint
+
+                            The PO choose the exact user story from the PB into the SB based on team capapcity
+
+                            The PO set the sprint goal + start the time box
+
+
+            Team Leader assign tasks or the developers take any
+
+ Team Capacity = dev team's  total work availability
+
+    3. Daily stand up meetings :  SM hosts
+
+                                  Each dev team informs task progress 3 Qs
+
+                                  Every morning 15-30 min
+
+
+    4. Demo/SPrint Review:
+
+                     PO: hosts and Scrum team, the client, PM, maybe the other teams
+
+                     PO: Accepts or Rejects user stories according to DOD(Definition of Done)
+
+                     SM: ends sprint backlog
+
+                     Dev team: Each person/team lead demonstrates the done work
+
+                     The client: Provide feedback
+
+
+    5. Retrospective:
+                    SM hosts meeting
+
+                    Dev team: Each team member answers the following questions:
+                        What went well?
+                        What went wrong?
+                        What should we do to improve our team's efficiency?
+
+===============================
+
+ KT session -> Knowledge transfer
+    project explanation
+    team structure
+    technical info - language, framework, github strategy
+
+    Each new member get KT session in the first week
+
+
+
+
+
+********************************** IMPORTANT **********************************
+ INTERVIEW QUESTIONS:
+
+ 1. what kind of OS you have used?
+
+   - MacOS , windows...
+
+ 2. what are the browsers do you know?
+
+  - Safari, chrome, firefox,  edge, Opera ..
+
+ DO YOU KNOW AGILE - SCRUM
+
+ I have experience working in the Agile-Scrum environment, which describes a set of meetings, tools, and roles that
+ work in concert to help teams structure and manage their work.
+
+   IN MY TEAM:
+
+    # We implemented 2 weeks sprint cycle
+    # I have a total of {number} people in my team - ** 1 PO, 1SM, {number} developers, and {number} QAs **
+
+
+ DURING THE SPRINT, WE CONDUCTED ALL THE SCRUM CEREMONIES/MEETINGS: **
+
+     # GROOMING meeting starts on the first day of each sprint; all the Scrum members join
+        --> The PO EXPLAINS the US to the dev team, and we ESTIMATE POINTS based on FIBONACCI. ***
+
+     # SPRINT PLANNING meeting comes after, to IDENTIFY the SPRING GOAL with the exact tasks/US.
+        --> We pull/choose US/tasks FROM PB TO THE SB based on our TEAM CAPACITY AND DOR CRITERIA.
+
+     # Every morning at {time} we conduct a DAILY STAND-UP meeting to UPDATE OUR TASK STATUS by answering three
+          [questions].
+        --> The burn-down chart helps us predict when all the work will be completed.
+
+     # Last day of the sprint, we have the DEMO meeting with the client to present our completed works.
+          The PO accepts/rejects the works based on our team's DOD criteria. All the accepted works are the PRODUCT
+          INCREMENT, and any uncompleted/rejected work will be back to the PB, and we will go over them at the next
+          Grooming meeting.
+
+     # We conduct RETRO meeting with the SM and QAs; this meeting helps us to find our dev team to create improvement
+          opportunities. We inspect how the last Sprint went with regards to individuals, interactions, processes, and
+          tools by answering three questions - {Qs}

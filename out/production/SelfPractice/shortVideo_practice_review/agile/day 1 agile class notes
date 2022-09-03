@@ -1,0 +1,176 @@
+08/02/2022 Softskill class
+
+Instructor -- Asiya
+
+Agenda:
+
+      - Softskill class topics
+      - Softskill keywords
+      - SDLC
+
+===========================
+
+ Key words -----> Software == app == applicaton == platform == program == project == system == product
+
+interview question:
+
+1. what kind of OS you have used?
+
+   - MacOS , windows...
+
+2. what are the browsers do you know?
+
+  - Safari, chrome, firefox,  edge, Opera ..
+
+
+=============================
+
+what are the functionalities/features does Youtube has ?
+
+  - comments, search, subscribe, go live, like, download, screenzise, stop, start video, login, logout,
+
+
+=============================
+ex:
+
+  a developer devloped file upload function
+
+  a QA/SDET/functional testers test if a user can upload a file or not
+
+  a performance testers/non-functional testers test the non-func parts:
+
+         - stress test -> what if 500 users upload files at the same time?
+         - capacity testing - max dile capacity that the app can handle?
+         - perfromance test - how fas or slow does it take to upload a file
+
+==========================
+
+software 3 layers: UI, DB, API
+
+funtions/features: login, cpmment, logout, send message, delete meesage, invite friends, search, create channel, shre screen ...
+
+non-function:  speed, stress, capacity, installation, volum ....
+
+===================================
+Departments in IT companies:
+
+ Business team: Poroject manager - PM
+                Product owner - PO
+                   - PO is a middle man between the client & develoeprs
+                   - PO is the voice of the client
+                   - PO represent the client
+
+                Business Analyze - BA
+                   = helper of the PO , share the same tasks
+
+====================
+ Development team: Developers
+                  SDETs
+
+ Design team: app designers
+
+ perforamnce team : non-functional testers
+
+
+Hasan:
+   business man: an idea for a new app -- learning programming language app
+
+go to one IT company : needs to talk to PO
+
+   Hasan needs to provide his idea: app name
+                                    app domain - learning app
+                                    app functionalities: login/invite friends, send message
+                                                         send code , upload - download files
+                                                         profile info, group chat ....
+                                    colors: blue, orange
+
+
+
+Hasan is the client/customer for the IT company. --> externall client
+
+
+Kuzzat -> want one app for the Cydeo company
+
+          since Kuzzat has an IT company, he just build teams to build/develop the app
+
+          Kuzzat is the client. -- internal client
+
+
+
+                          PM                                              PM
+
+
+   project- music app            project - prime app           project - ibook app
+        PO + BA                            PO                               PO + BA
+
+Development team: 4dev+2qa             Development team                  Development team
+   perfromance team                    perfromance team                  perfromance team
+   design team                                          design team
+
+
+====================
+
+the client / customer : the idea owner, app owner
+                        who provides budget
+                        the software will be developed based on the client's request
+
+
+requirement : the client's request is requirement.
+
+   EX:app name
+      app domain - learning app
+      app functionalities: login/invite friends, send message
+                           send code , upload - download files
+                           profile info, group chat ....
+      colors: blue, orange
+
+=========================================
+
+End users : target users who will use the app in the market
+
+     ex: amazon: whoever use the amazon app is the end user
+         game : whoever play the game
+
+         engslish learn app : end users are whover use the app to elarn english
+
+         bank app: bank customers, bank employees
+
+         cydeo app: cydeo emploees, students, future students
+
+
+====================
+
+ios / iphone -> release once a year
+
+    Sep / 2021 --> V15
+
+    Sep / 2022 --> release new version V16
+
+
+=================================
+
+communication app:
+
+     release V1.0 -> 03/2023
+          login / logout / send DM
+
+          end users: bugs are reported after 10 days
+
+          develoeprs fix the bug immidiatlly: hot fix
+
+              release a small version: V1.1
+
+
+     release V2.0 -> 07/2023
+          voice chat, emoji
+
+      release V3.0 -> 10/2023
+           profile manage
+
+
+
+
+
+
+
+
