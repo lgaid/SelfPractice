@@ -1,0 +1,52 @@
+Question 9: What's Polymorphism? What's down-casting and upcasting?
+Duration: 3 min
+Deadline Sep 25, 23.59 EST
+
+
+Polymorphism is one of the core concepts of object-oriented programming (OOP)
+            ---> allows us to execute the same action in many different forms.
+
+For example:
+                ---> The print() method is also an example of polymorphism.
+                           because It is used to print values of different types like char , int , string , etc.
+
+               ----> An mother, daughter, sister
+
+2 types of poly: Static and Dynamic
+                => Static poly is resolved at compile time. Example: Method overloading
+                => Dynamic poly the process in which a call to an overridden method is resolved at
+                   at runtime.
+What i
+================================
+
+    --->In java Polymorphism allows us to transform our data type up or down the hierarchy chain
+            through Typecasting which helps take advantage of polymorphism.
+
+
+Typecasting is the process of converting 1 data type to another.
+There 2 are types of casting:
+
+
+Upcasting is Generalization Widening---
+        --> it's casting individual type(parent type) to 1 common type.
+                --> This can be done implicitly/explicitly
+                    --> In Java it's hardly used. It is used to dev a code
+                        that only deals with parent class.
+                        ---> All Java objects are polymorphic and can be treated
+                                as objects of supertype due to upcasting
+
+
+Downcasting is Specialization or narrowing---
+        --> it's casting common type(child type) to individual type
+            --> This can ONLY be done explicitly
+                --> We use Downcasting to dev a code that accesses the functions
+                    of child class.
+                   -->  To downcast an object safely, we need instanceof operator.
+                            If the real object doesn't match the type we downcast to,
+                                    then ClassCastException will be thrown at runtime.
+
+We apply casting through parenthesis...
+
+For example: If we want to store a long value in a simple integer then we can cast
+               long to int by putting the type name inside the parentheses then the expression outside of it.
+
