@@ -1,0 +1,60 @@
+====>>>   Encapsulation is one of the OOP principles in Java
+
+        --->   It's An object hides its internal data from code that’s outside the class.
+               In other words it's the wrapping up of data under a single unit.
+
+
+The main advantage of using encapsulation is the security of the data.
+        --->    Encapsulation protects an object from unwanted access by clients.
+
+        --->    Encapsulation allows access to a level without revealing the
+                            complex details below that level.
+
+
+=========== Encapsulation (Data Hiding) =====================>>
+
+• Only the current class’ methods can directly
+access and make changes to the instance
+variables
+
+• Hide an instance variable by giving private access
+modifier, and making the methods that access
+those fields public
+
+• These public methods are called getters & setters
+(accessor and mutator)
+
+========== Getters & Setters ==========
+
+• Both are public instance methods, used to protect our data and
+make our code more secure
+
+• Getter is used for reading the private data (instance variable) only
+
+• Setter is used for writing (modifying) the private data (instance
+variable) only
+
+
+========== Getters Method ===========
+
+• An instance return method that returns the
+private instance variable
+
+• Does not pass any parameter
+
+• Return type must match with the data type of
+the private instance variable
+
+=========== Setter Method ============
+
+• An instance method with the return type of void
+
+• Passes a parameter, and parameter will be
+assigned to the private instance variable
+
+• Data type of the parameter must match with the
+data type of the private instance variable
+
+
+
+
