@@ -1,0 +1,19 @@
+Question: Please explain the MVC flow in Spring Boot and mention about how
+you implemented MVC structure in your project (Ticketing)
+
+---> MVC is an architectural pattern consisting of three parts:
+     --> Model, View, Controller.
+            ->  Model: Handles data logic.
+            ->  View: Displays the information from the MODEL to the USER.
+            ->  Controller: Controls the data flow into a MODEL OBJECT and UPDATES the VIEW whenever data changes.
+
+So Model is an interface name, which we used in the parameters of the controller methods to be able to send live data
+from our application to the views. And we do this by using some methods of the Model for example .addAttribute().
+
+
+
+
+
+
+
+

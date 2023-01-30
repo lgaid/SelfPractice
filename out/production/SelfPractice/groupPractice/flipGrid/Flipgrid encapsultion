@@ -1,13 +1,13 @@
 ====>>>   Encapsulation is one of the OOP principles in Java
 
-        --->   It's An object hides its internal data from code that’s outside the class.
+        --->   It's An object that hides its internal data from code that’s outside the class.
                In other words it's the wrapping up of data under a single unit.
 
 
 The main advantage of using encapsulation is the security of the data.
         --->    Encapsulation protects an object from unwanted access by clients.
 
-        --->    Encapsulation allows access to a level without revealing the
+        --->    It also allows access to a level without revealing the
                             complex details below that level.
 
 
